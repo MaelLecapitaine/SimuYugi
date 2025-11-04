@@ -1,10 +1,12 @@
 package player;
 
 public class Player {
-    public int lifePoints;
+    private int lifePoints;
+    private String name;
 
-    public Player(){
+    public Player(String name){
         this.lifePoints = 8000;
+        this.name = name;
     }
 
     public int getLifePoints(){
@@ -18,4 +20,5 @@ public class Player {
     public void gainLifePoints(int points){
         this.lifePoints += points;
     }
+
 }

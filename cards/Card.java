@@ -10,6 +10,7 @@ public abstract class Card {
     private Type typeCarte = null;
     private boolean faceUp;
     private String cardText;
+    private String cardName;
 
     public Card(String text){
         this.cardText = text;
