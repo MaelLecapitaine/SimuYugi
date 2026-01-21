@@ -8,5 +8,6 @@ public class Main {
         System.out.println("SimuYugi started.");
 
         Game game = new Game();
+        System.out.println(game.getField());
     }
 }

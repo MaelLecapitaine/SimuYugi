@@ -1,11 +1,11 @@
 package field;
 
-public class SpellZone extends FieldZone {
+public class SpellTrapZone extends FieldZone {
 
     private boolean pendulumRight = false;
     private boolean pendulumLeft = false;
 
-    public SpellZone(boolean pR, boolean pL){
+    public SpellTrapZone(boolean pR, boolean pL){
         this.pendulumLeft = pL;
         this.pendulumRight = pR;
     }

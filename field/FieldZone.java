@@ -1,7 +1,7 @@
 package field;
 
 import cards.Card;
-import cards.MonsterCard;
+import cards.monsters.MonsterCard;
 
 public abstract class FieldZone {
     private boolean occupied = false;

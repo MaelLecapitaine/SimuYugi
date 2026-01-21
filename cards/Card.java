@@ -12,12 +12,19 @@ public abstract class Card {
     private String cardText;
     private String cardName;
 
-    public Card(String text){
+    public Card(String text, String name){
         this.cardText = text;
+        this.cardName = name;
     }
 
     public boolean play(FieldZone z){
         boolean success = true;
+        return success;
+    }
+
+    public boolean playFaceDown(FieldZone z){
+        boolean success = true;
+        this.faceUp = true;
         return success;
     }
 

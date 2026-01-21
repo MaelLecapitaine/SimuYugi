@@ -7,4 +7,11 @@ public class Game {
 
     private CompleteField field = new CompleteField();
 
+    public Game() {
+        this.currentTurn = new Turn();
+    }
+
+    public CompleteField getField() {
+        return this.field;
+    }
 }

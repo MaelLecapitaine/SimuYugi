@@ -1,4 +1,4 @@
-package cards;
+package cards.monsters;
 
 public enum Attribute {
     Fire,
